@@ -52,6 +52,7 @@
                   "<h3>" + locale.link.insert + "</h3>" +
                 "</div>" +
                 "<div class='modal-body'>" +
+                  "<p>" + locale.link.explanation + "</p>" +
                   "<input value='http://' class='bootstrap-wysihtml5-insert-link-url input-xlarge'>" +
                   "<label class='checkbox'> <input type='checkbox' class='bootstrap-wysihtml5-insert-link-target' checked>" + locale.link.target + "</label>" +
                 "</div>" +
@@ -483,7 +484,8 @@
             link: {
                 insert: "Insert link",
                 cancel: "Cancel",
-                target: "Open link in new window"
+                target: "Open link in new window",
+                explanation: "Enter a URL. For email links: mailto:user@example.com"
             },
             image: {
                 insert: "Insert image",

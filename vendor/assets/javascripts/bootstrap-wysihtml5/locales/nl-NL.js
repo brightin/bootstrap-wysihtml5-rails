@@ -23,7 +23,8 @@
         link: {
             insert: "Link invoegen",
             cancel: "Annuleren",
-            target: "Openen in nieuw venster"
+            target: "Openen in nieuw venster",
+            explanation: "Voer een URL in. Voor email-links: mailto:user@example.com"
         },
         image: {
             insert: "Afbeelding invoegen",
